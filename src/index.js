@@ -4,6 +4,7 @@ import HelloWorld from "./components/HelloWorld";
 import HelloName from "./components/HelloName";
 import Clock from "./components/Clock";
 import ClockHook from "./components/ClockHook";
+import TagLink from "./components/TagLink";
 
 import "./styles.css";
 
@@ -14,6 +15,7 @@ function App() {
       <HelloName name="Tony" />
       <Clock />
       <ClockHook />
+      <TagLink />
       <h1>Hello CodeSandbox</h1>
       <h2>Start editing to see some magic happen!</h2>
     </div>
