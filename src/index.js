@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import HelloWorld from "./components/HelloWorld";
 import HelloName from "./components/HelloName";
+import Clock from "./components/Clock";
 
 import "./styles.css";
 
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
       <HelloWorld />
       <HelloName name="Tony" />
+      <Clock />
       <h1>Hello CodeSandbox</h1>
       <h2>Start editing to see some magic happen!</h2>
     </div>
