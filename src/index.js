@@ -8,7 +8,7 @@ import TagLink from "./components/TagLink";
 import TagButton from "./components/TagButton";
 import TagButton2 from "./components/TagButton2";
 import TagButton3 from "./components/TagButton3";
-import Greeting from "./components/Greeting";
+import LoginControl from "./components/LoginControl/LoginControl";
 
 import "./styles.css";
 
@@ -23,8 +23,7 @@ function App() {
       <TagButton />
       <TagButton2 />
       <TagButton3 />
-      <Greeting isLoggedIn={false} />
-      <Greeting isLoggedIn={true} />
+      <LoginControl />
       <h1>Hello CodeSandbox</h1>
       <h2>Start editing to see some magic happen!</h2>
     </div>
