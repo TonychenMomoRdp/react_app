@@ -9,6 +9,7 @@ import TagButton from "./components/TagButton";
 import TagButton2 from "./components/TagButton2";
 import TagButton3 from "./components/TagButton3";
 import LoginControl from "./components/LoginControl/LoginControl";
+import Page from "./components/Page";
 
 import "./styles.css";
 
@@ -24,6 +25,7 @@ function App() {
       <TagButton2 />
       <TagButton3 />
       <LoginControl />
+      <Page />
       <h1>Hello CodeSandbox</h1>
       <h2>Start editing to see some magic happen!</h2>
     </div>
